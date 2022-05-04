@@ -1,0 +1,7 @@
+{
+  "name": "softskills",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
