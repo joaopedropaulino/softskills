@@ -11,6 +11,30 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'softskills',
+    loadChildren: () => import('./softskills/softskills.module').then( m => m.SoftskillsPageModule)
+  },
+  {
+    path: 'flexibilidade',
+    loadChildren: () => import('./softskills/flexibilidade/flexibilidade.module').then( m => m.FlexibilidadePageModule)
+  },
+  {
+    path: 'flexibilidade',
+    loadChildren: () => import('./softskills/flexibilidade/flexibilidade.module').then( m => m.FlexibilidadePageModule)
+  },
+  {
+    path: 'critico',
+    loadChildren: () => import('./softskills/critico/critico.module').then( m => m.CriticoPageModule)
+  },
+  {
+    path: 'resolucao',
+    loadChildren: () => import('./softskills/resolucao/resolucao.module').then( m => m.ResolucaoPageModule)
+  },
+  {
+    path: 'resiliencia',
+    loadChildren: () => import('./softskills/resiliencia/resiliencia.module').then( m => m.ResilienciaPageModule)
+  },
 ];
 
 @NgModule({
