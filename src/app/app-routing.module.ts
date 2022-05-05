@@ -12,10 +12,6 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'softskills',
-    loadChildren: () => import('./softskills/softskills.module').then( m => m.SoftskillsPageModule)
-  },
-  {
     path: 'flexibilidade',
     loadChildren: () => import('./softskills/flexibilidade/flexibilidade.module').then( m => m.FlexibilidadePageModule)
   },
