@@ -30,9 +30,6 @@ const routes: Routes = [
   {
     path: 'resiliencia',
     loadChildren: () => import('./softskills/resiliencia/resiliencia.module').then( m => m.ResilienciaPageModule)
-  },  {
-    path: 'iniciativa',
-    loadChildren: () => import('./iniciativa/iniciativa.module').then( m => m.IniciativaPageModule)
   },
   {
     path: 'iniciativa',
