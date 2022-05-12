@@ -1,8 +1,29 @@
 .texto{
   font-size: 15px;
   border: 1px;
+  background-color: rgb(218, 134, 40);
+  color: black;
 }
 
 .img{
   width: 100%;
-}  
+}
+
+.botao{
+  margin-left: 5px;
+  padding-left: 5px;
+}
+ .titulo{
+  margin-left: 15px;
+  padding-left: 5px;
+ }
+
+ .card{
+   background-color: rgb(218, 134, 40);
+ }
+
+ion-content {
+  --background: url(https://i.pinimg.com/originals/a8/81/8a/a8818a0d30c5f13b61d53b5f8cf00b7e.jpg);
+}
+
+
