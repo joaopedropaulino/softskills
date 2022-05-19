@@ -1,8 +1,16 @@
 .texto{
   font-size: 15px;
   border: 1px;
-  background-color: rgb(218, 134, 40);
-  color: black;
+  background-color: rgb(146, 146, 146);
+  color: rgb(255, 0, 0);
+}
+
+.texto2{
+  font-size: 30px;
+  border: 1px;
+  background-color: rgb(146, 146, 146);
+  color: rgb(255, 0, 0);
+
 }
 
 .img{
@@ -19,11 +27,11 @@
  }
 
  .card{
-   background-color: rgb(218, 134, 40);
+   background-color: rgb(146, 146, 146);
  }
 
 ion-content {
-  --background: url(https://i.pinimg.com/originals/a8/81/8a/a8818a0d30c5f13b61d53b5f8cf00b7e.jpg);
+  --background: url(https://i.pinimg.com/736x/4e/d9/8c/4ed98c5a11022c7bcc0b7c4632d9b05c.jpg);
 }
 
 
